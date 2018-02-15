@@ -1,9 +1,11 @@
 a.page-social-embed.right {
   float: right;
+  margin-left: 25px;
 }
 
 a.page-social-embed.left {
   float: left;
+  margin-right: 25px;
 }
 
 a.page-social-embed:hover {
@@ -16,7 +18,8 @@ a.page-social-embed {
   box-sizing: border-box;
   padding: 10px;
   display: inline-block;
-  width: 359px;
+  width: 100%;
+  max-width: 359px;
   text-align: left;
   img {
     width: 100px;
@@ -39,5 +42,16 @@ a.page-social-embed {
     font-size: 0.65em;
     font-weight: bold;
     line-height: 1em;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  a.page-social-embed.right,
+  a.page-social-embed.left {
+    float: none;
+    margin: 25px auto;
+  }
+  a.page-social-embed {
+    display: block;
   }
 }
