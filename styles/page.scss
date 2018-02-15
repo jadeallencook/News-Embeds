@@ -1,0 +1,43 @@
+a.page-social-embed.right {
+  float: right;
+}
+
+a.page-social-embed.left {
+  float: left;
+}
+
+a.page-social-embed:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+a.page-social-embed {
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  padding: 10px;
+  display: inline-block;
+  width: 359px;
+  text-align: left;
+  img {
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+    background-size: cover;
+    background-position: center center;
+  }
+  h1 {
+    font-size: 0.75em;
+    margin-bottom: 0px;
+    margin-top: -15px;
+    line-height: 1em;
+    margin-top: 5px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  span {
+    display: block;
+    font-size: 0.65em;
+    font-weight: bold;
+    line-height: 1em;
+  }
+}
