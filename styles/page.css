@@ -1,16 +1,16 @@
-a.page-social-embed.right {
+div.page-social-embed.right {
   float: right;
   margin-left: 25px; }
 
-a.page-social-embed.left {
+div.page-social-embed.left {
   float: left;
   margin-right: 25px; }
 
-a.page-social-embed:hover {
+div.page-social-embed:hover {
   opacity: 0.75;
   cursor: pointer; }
 
-a.page-social-embed {
+div.page-social-embed {
   background-color: #f2f2f2;
   box-sizing: border-box;
   padding: 10px;
@@ -18,13 +18,13 @@ a.page-social-embed {
   width: 100%;
   max-width: 359px;
   text-align: left; }
-  a.page-social-embed img {
+  div.page-social-embed img {
     width: 100px;
     float: left;
     margin-right: 15px;
     background-size: cover;
     background-position: center center; }
-  a.page-social-embed h1 {
+  div.page-social-embed h1 {
     font-size: 0.75em;
     margin-bottom: 0px;
     margin-top: -15px;
@@ -32,19 +32,19 @@ a.page-social-embed {
     margin-top: 5px;
     font-weight: bold;
     display: inline-block; }
-  a.page-social-embed span {
+  div.page-social-embed a {
     display: block;
     font-size: 0.65em;
     font-weight: bold;
     line-height: 1em; }
 
 @media screen and (max-width: 560px) {
-  a.page-social-embed.right,
-  a.page-social-embed.left {
+  div.page-social-embed.right,
+  div.page-social-embed.left {
     float: none;
     margin: 25px auto; }
 
-  a.page-social-embed {
+  div.page-social-embed {
     display: block; } }
 
 /*# sourceMappingURL=page.css.map */

@@ -1,19 +1,19 @@
-a.page-social-embed.right {
+div.page-social-embed.right {
   float: right;
   margin-left: 25px;
 }
 
-a.page-social-embed.left {
+div.page-social-embed.left {
   float: left;
   margin-right: 25px;
 }
 
-a.page-social-embed:hover {
+div.page-social-embed:hover {
   opacity: 0.75;
   cursor: pointer;
 }
 
-a.page-social-embed {
+div.page-social-embed {
   background-color: #f2f2f2;
   box-sizing: border-box;
   padding: 10px;
@@ -37,7 +37,7 @@ a.page-social-embed {
     font-weight: bold;
     display: inline-block;
   }
-  span {
+  a {
     display: block;
     font-size: 0.65em;
     font-weight: bold;
@@ -46,12 +46,12 @@ a.page-social-embed {
 }
 
 @media screen and (max-width: 560px) {
-  a.page-social-embed.right,
-  a.page-social-embed.left {
+  div.page-social-embed.right,
+  div.page-social-embed.left {
     float: none;
     margin: 25px auto;
   }
-  a.page-social-embed {
+  div.page-social-embed {
     display: block;
   }
 }
