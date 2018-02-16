@@ -36,7 +36,8 @@ div.page-social-embed {
     display: block;
     font-size: 0.65em;
     font-weight: bold;
-    line-height: 1em; }
+    line-height: 1em;
+    color: #4B4B4B; }
 
 @media screen and (max-width: 560px) {
   div.page-social-embed.right,

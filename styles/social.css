@@ -55,7 +55,8 @@ div.news-social-embed {
   div.news-social-embed a.social-embed-link:first-child {
     margin-top: -25px;
     height: 0px;
-    display: block; }
+    display: block;
+    color: #4B4B4B; }
 
 @media screen and (max-width: 560px) {
   div.news-social-embed.right,
