@@ -15,8 +15,7 @@ div.page-social-embed {
   box-sizing: border-box;
   padding: 10px;
   display: inline-block;
-  width: 100%;
-  max-width: 359px;
+  width: 359px;
   text-align: left; }
   div.page-social-embed img {
     width: 100px;
@@ -39,13 +38,23 @@ div.page-social-embed {
     line-height: 1em;
     color: #4B4B4B; }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
   div.page-social-embed.right,
   div.page-social-embed.left {
     float: none;
     margin: 25px auto; }
 
   div.page-social-embed {
-    display: block; } }
+    width: 100%;
+    padding: 25px 0px; }
+    div.page-social-embed img {
+      width: 250px;
+      margin-left: 25px; }
+    div.page-social-embed h1 {
+      margin-top: 15px;
+      font-size: 2em; }
+    div.page-social-embed a {
+      font-size: 1.75em;
+      margin-right: 25px; } }
 
 /*# sourceMappingURL=page.css.map */
