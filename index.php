@@ -30,6 +30,7 @@
   <?php 
     include_embed('social');
     include_embed('page');
+    include_embed('story');
   ?>
 </body>
 
