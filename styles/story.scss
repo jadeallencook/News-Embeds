@@ -45,24 +45,25 @@ div.story-social-embed {
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
     div.story-social-embed.right,
     div.story-social-embed.left {
-      float: none;
-      margin: 25px auto;
+        float: none;
+        margin: 25px auto;
     }
     div.story-social-embed {
-      width: 100%;
-      padding: 25px 0px;
-      img {
-        height: 250px;
-        margin-left: 25px;
-      }
-      h1 {
-        margin-top: 25px;
-        font-size: 2em;
-        margin-left: 25px;
-      }
-      span {
-        font-size: 1.75em;
-        margin-left: 25px;
-      }
+        width: 100%;
+        padding: 25px 0px;
+        img {
+            margin-left: 15px;
+        }
+        h1 {
+            margin-top: 5px;
+            margin-left: 15px;
+        }
+        span {
+            a {
+                cursor: pointer;
+            }
+            width: 50%;
+            margin-left: 15px;
+        }
     }
-  }
+}

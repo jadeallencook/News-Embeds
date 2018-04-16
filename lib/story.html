@@ -4,5 +4,15 @@
 <div class="story-social-embed">
   <img src="https://cdn.deseretnews.com/media/misc/interactive/global-ministry-tour/widget-icon.svg" />
   <h1>Global Missionary Tour</h1>
-  <span><a href="https://www.deseretnews.com/global-ministry-tour" target="_blank">Follow the Deseret News</a> as we chronicle President Russel M. Nelson's travels through seven countries around the world.</span>
+  <span><a>Follow the Deseret News</a> as we chronicle President Russel M. Nelson's travels through seven countries around the world.</span>
 </div>
+
+<script>
+  (function() {
+    var link = document.querySelector('div.story-social-embed span a');
+    link.onclick = function() {
+      if ('ga' in window) ga('send', 'event', 'Global Missionary Tour', 'Link Clicked', 'Link');
+      window.location = 'https://www.deseretnews.com/global-ministry-tour';
+    }
+  })();
+</script>
